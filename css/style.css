@@ -468,6 +468,7 @@ header {
 /* -------------------------- Desktop version ----------------------------- */
 
 @media screen and (min-width:768px) {
+
 /* -------------------------- Desk nav bar ----------------------------- */
 
   .nav-bar-mobile-version{
@@ -526,8 +527,6 @@ header {
 
 #headline {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .header-img {
@@ -535,12 +534,21 @@ header {
   display: block;
 }
 
+.header-img .geometry_5{
+  width: 100%;
+  height: 100%;
+}
+
+.image_dots {
+  width: 30%;
+}
+
 .header-button {
   align-self: flex-start;
 }
 
 .section-headline {
-  margin-left: 160px;
+  padding-left: 160px;
 }
 
 .section-headline h1 {
@@ -663,6 +671,7 @@ header {
   box-sizing: border-box;
 }
 
+
 #about {
   display: flex;
   flex-direction: row-reverse;
@@ -729,6 +738,8 @@ header {
 /* -------------------------- Desk contact ----------------------------- */
 
 .contact-form {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 156px;
 }
 
@@ -754,16 +765,14 @@ header {
 
 .image-geometry-6 {
   position: absolute;
-  width: 263.06px;
-  height: 350.84px;
+  width: 15%;
   left: 0;
   top: 0;
 }
 
 .image-geometry_7 {
   position: absolute;
-  width: 320px;
-  height: 320px;
+  width: 15%;
   right: 0;
   bottom: 0;
 }
@@ -774,75 +783,14 @@ header {
 
 /* -------------------------- Desk random project ----------------------------- */
 
-
 .random-project {
-  display: block;
-  position: relative;
-  height: 1080px;
+  display: flex;
+  flex-direction: column;
 }
 
-.rand-project-1 {
-  position: absolute;
-  width: 465px;
-  height: 270px;
-  left: 0;
-  top: 80px;
-}
-.rand-project-2 {
-  z-index: 1;
-  position: absolute;
-  width: 800px;
-  height: 465px;
-  left: 0;
-  top: 349px;
-}
-
-.rand-project-3 {
-  z-index: 1;
-  position: absolute;
-  width: 465px;
-  height: 270px;
-  right: 0;
-  top: 70px;
-}
-
-.rand-project-4 {
-  position: absolute;
-  width: 465px;
-  height: 270px;
-  left: 800px;
-  bottom: 0;
-}
-
-.deco-1 {
-  position: absolute;
-  width: 511px;
-  height: 350px;
-  left: 465px;
-}
-
-.deco-2 {
-  position: absolute;
-  width: 639.75px;
-  height: 275.42px;
-  top: 337px;
-  right: 0;
-}
-
-.deco-3 {
-  position: absolute;
-  width: 211.7px;
-  height: 124.04px;
-  top: 810px;
-  left: 0;
-}
-
-.deco-4 {
-  position: absolute;
-  width: 211.7px;
-  height: 124.04px;
-  top: 810px;
-  left: 590px;
+.block1 {
+  display: flex;
+  align-items: flex-end;
 }
 
 }

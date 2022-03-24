@@ -31,7 +31,7 @@
         <button type="button" class="header-button">Start collaboration</button>
       </section>
       <div class="header-img">
-        <img src="images/image-geometry_5.jpg" alt="header image">
+        <img class="geometry_5" src="images/image-geometry_5.jpg" alt="header image">
         <img class="image_dots" src="images/image_dots.png" alt="header image">
       </div>
       <div class="vector-img"></div>
@@ -131,14 +131,11 @@
       </section>
     </section>
     <section class="random-project">
-      <a href="#"><img class="rand-project-1" src="images/project-img-2.png" alt="project 1"></a>
-      <a href="#"><img class="rand-project-2" src="images/project-img-3.png" alt="project 2"></a>
-      <a href="#"><img class="rand-project-4" src="images/project-img-4.png" alt="projet 3"></a>
-      <a href="#"><img class="rand-project-3" src="images/project-img-5.png" alt="project 1imgage"></a>
-      <img class="deco-1" src="images/image-geometry_8.png" alt="deco 1">
-      <img class="deco-2" src="images/image-geometry_9.png" alt="deco 2">
-      <img class="deco-3" src="images/image-geometry_10.png" alt="deco 2">
-      <img class="deco-4" src="images/image-geometry_11.png" alt="deco 2">
+      <div class="block1">
+        <a href="#"><img class="rand-project-1" src="images/project-img-2.png" alt="project 1"></a>
+        <img class="deco-1" src="images/image-geometry_8.png" alt="deco 1">
+        <a href="#"><img class="rand-project-1" src="images/project-img-6.png" alt="project 6"></a>
+      </div>
     </section>
     <section id="about">
       <section class="about-section">
@@ -190,18 +187,30 @@
     <section class="contact-form">
       <img class="contact-form-img-desk image-geometry-6" src="images/image-geometry_6.png" alt="">
       <img class="contact-form-img-mobile" src="images/image_geometry_4.png" alt="">
-      <img class="contact-form-img-desk image-geometry_7" src="images/image-geometry_7.png" alt="">
       <header>
         <h2>Get started</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
       </header>
       <form action="https://formspree.io/f/xeqnzdea" method="POST">
-          <input type="text" name="name" placeholder="Your name"  maxlength="10" required>
-          <input type="email" name="email" placeholder="Your email" required>
-          <textarea name="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
-        <button type="submit">Start collaboration</button>
+          <div class="form-input">
+            <div class="field-name">
+              <label for="">Your name</label>
+              <input type="text" name="name" placeholder="Your name"  maxlength="10" required>
+            </div>
+            <div class="field-email">
+              <label for=""> Your email</label>
+              <input type="email" name="email" placeholder="Your email" required>
+            </div>
+
+          </div>
+          <div class="fiel-maessage">
+            <label for="">Message</label>
+            <textarea name="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
+          </div>
+          <button type="submit">Start collaboration</button>
       </form>
+      <img class="contact-form-img-desk image-geometry_7" src="images/image-geometry_7.png" alt="">
     </section>
   </body>
 </html>
